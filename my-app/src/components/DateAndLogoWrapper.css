@@ -4,16 +4,18 @@
     align-items: center; /* Center children (logo and card) */
   }
   
+
   .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: calc(100% - 120px); /* Assuming the card's width is full width minus some margin */
-    max-width: 800px; /* Match your card's max width */
+    min-width: 800px; /* Match your card's max width */
     margin-left: 60px;
     margin-right: auto;
     padding-top: 40px;
     padding-bottom: 10px;
+    min-width: 800px;
   }
   
   .date-text {
