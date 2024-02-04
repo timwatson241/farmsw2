@@ -1,18 +1,17 @@
 import { createTheme } from "@mui/material/styles";
 
-// Create a custom theme
 const theme = createTheme({
   palette: {
-    // Define your color scheme here
-    primary: {
-      main: "#556cd6",
+    background: {
+      default: "#ffffff", // Ensures the background is white
     },
-    secondary: {
-      main: "#19857b",
+    customColors: {
+      // Add custom colors used in your components
+      cardColorPrimary: "#f5f5f5", // Example color for the card background
+      borderColor: "#cccccc", // Example color for the card border
     },
-    // Add more customization as needed
   },
-  // You can also customize typography, breakpoints, etc.
+  // Add more customization as needed
 });
 
 export default theme;
